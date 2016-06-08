@@ -63,10 +63,17 @@ h3 a {
     background-color: #f05f40;
 }
 
-.bg-vatrium {
+.bg-vatrium-audience {
     background-color: #2D7A97;
 }
 
+.bg-vatrium-features {
+    background-color: #2EAE5E;    
+}
+
+.bg-vatrium-development {
+    background-color: #F09C40;   
+}
 .bg-dark {
     color: #fff;
     background-color: #222;
@@ -345,6 +352,10 @@ header .header-content .header-content-inner p {
 
 .text-primary {
     color: #f05f40;
+}
+
+.text-vatrium {
+    color: #ffffff;   
 }
 
 .no-gutter > [class*=col-] {
