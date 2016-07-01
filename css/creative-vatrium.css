@@ -74,23 +74,6 @@ h3 a {
 .bg-vatrium-development {
     background-color: #F09C40;   
 }
-
-.bg-primary {
-    background-color: #f05f40;
-}
-
-.bg-blue {
-    background-color: #2D7A97;
-}
-
-.bg-green {
-    background-color: #2EAE5E;    
-}
-
-.bg-yellow {
-    background-color: #F09C40;   
-}
-
 .bg-dark {
     color: #fff;
     background-color: #222;
@@ -218,7 +201,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/vatrium_header.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -375,10 +358,6 @@ header .header-content .header-content-inner p {
     color: #ffffff;   
 }
 
-.text-white {
-    color: #ffffff;   
-}
-
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
@@ -441,33 +420,6 @@ fieldset[disabled] .btn-default.active {
     border-color: #f05f40;
     color: #fff;
     background-color: #f05f40;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-green {
-    border-color: #2EAE5E;
-    color: #fff;
-    background-color: #2EAE5E;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-blue {
-    border-color: #2D7A97;
-    color: #fff;
-    background-color: #2D7A97;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.btn-yellow {
-    border-color: #F09C40;
-    color: #fff;
-    background-color: #F09C40;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -553,20 +505,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
-}
-
-.slides-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-.slides-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
